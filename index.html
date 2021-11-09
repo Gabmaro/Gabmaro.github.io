@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proveedor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/estilos.css"  />
+    </head>
+    <body>
+        <h2>Proveedor</h2>
+        <p><em>El borde azul indica obligatorio.</em></p>
+        <form id="forma" action="javascript:;">
+            <p>
+                <label for="clave" accesskey="C">Clave</label>
+                <input id="clave" type="text" required pattern=".{1,10}" maxlength="10"
+                       size="16" placeholder="1 a 10 digitos">
+            </p>
+            <p>
+                <label for="nombre" accesskey="N">Nombre</label>
+                <!-- Los objetos de tipo "Conocido" tienen la propiedad "nombre". -->
+                <input id="nombre" type="text" required pattern=".{1,50}" maxlength="50"
+                       size="16" placeholder="1 a 50 caracteres">
+            </p>
+            <p>
+                <label for="telefono" accesskey="T">Teléfono</label>
+                <input id="telefono" type="tel" required pattern="\d{8,14}" maxlength="14"
+                       size="16" placeholder="8 a 14 dígitos">
+            </p>
+            <p>
+                <label for="fecha" accesskey="F">Fecha</label>
+                <input id="fecha" type="date" max="2022-05-30" min="2011-01-01">
+            </p>
+            <p>
+              <label></label>
+              <input id="enPantalla" type="submit" value="EnPantalla" accesskey="R">
+              <input id="enAlerta" type="submit" value="EnAlerta" accesskey="R">
+            </p>
+            <p><label></label><output id="salida"></output>
+        </form>
+        <script src="js/CtrlProveedor.js"></script>
+    <footer>
+       Copyright 2021 Ricardo Armando Machorro Reyes
+    </footer>
+    </body>
+</html>
