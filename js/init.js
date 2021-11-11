@@ -2,12 +2,19 @@
  * configuración en tu servidor de Firebase.  */
 // @ts-ignore
 firebase.initializeApp({
-   apiKey: "AIzaSyBNB3Pj6tYCE3SglpTZacSyWRs6CMrkNoM",
-  authDomain: "gabautent299.firebaseapp.com",
-  projectId: "gabautent299",
-  storageBucket: "gabautent299.appspot.com",
-  messagingSenderId: "768003291233",
-  appId: "1:768003291233:web:02f1e598326f7824fc9220",
-  measurementId: "G-RT6SWL0496"
+ apiKey: "AIzaSyCZ9pJY6qIl_zhL31XgvQNM1PBtdqcUK0E",
+
+  authDomain: "gabchat-26b95.firebaseapp.com",
+
+  projectId: "gabchat-26b95",
+
+  storageBucket: "gabchat-26b95.appspot.com",
+
+  messagingSenderId: "1044747948828",
+
+  appId: "1:1044747948828:web:d35fbf15f81883229620d9",
+
+  measurementId: "G-DVX3564H8K"
+
 
     });
