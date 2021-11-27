@@ -45,7 +45,7 @@ class MiNav extends HTMLElement {
                   "chat.html">Chat</a>
               </li>`;
           }
-          /* Enlaces para solo
+          /* Enlaces para sologaleria/
            * administradores.
            */
           if (roles.has(
@@ -58,7 +58,7 @@ class MiNav extends HTMLElement {
                 <a href="usuarios.html">Usuarios</a>
               </li>
               <li>
-                <a href="galeria.html">Galeria</a>
+                <a href="/galeria/galeria.html">Galeria</a>
               </li>`;
           }
           this.ul.innerHTML += html;
