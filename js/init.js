@@ -7,12 +7,12 @@
  * quedar igual que en tu
  * servidor. */
 // @ts-ignore
-firebase.initializeApp({
-  apiKey: "AIzaSyDOYMpp68_udyaxhGI6xbtyF0n2HURHnP4",
-  authDomain: "fbauten1001.firebaseapp.com",
-  projectId: "fbauten1001",
-  storageBucket: "fbauten1001.appspot.com",
-  messagingSenderId: "717078882003",
-  appId: "1:717078882003:web:c4c3e1e5a917385cced626",
-  measurementId: "G-3QL4D2NXDN"
+const firebaseConfig = {
+  apiKey: "AIzaSyCZ9pJY6qIl_zhL31XgvQNM1PBtdqcUK0E",
+  authDomain: "gabchat-26b95.firebaseapp.com",
+  projectId: "gabchat-26b95",
+  storageBucket: "gabchat-26b95.appspot.com",
+  messagingSenderId: "1044747948828",
+  appId: "1:1044747948828:web:d35fbf15f81883229620d9",
+  measurementId: "G-DVX3564H8K"
 });
